@@ -1,0 +1,81 @@
+body {
+    background-color: #eee;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 2px black, -1px -1px 2px black, 1px 0 2px #fff,
+      1px 1px 2px black;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding: 2px;
+  }
+  
+  .container {
+    width: 800px;
+  }
+  header {
+    /* height: 70px; */
+    color: #ffffff;
+    /* width: 500px; */
+    text-align: center;
+    padding: 8px;
+    margin: 5px auto;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .sub-title {
+    font-size: 20px;
+  }
+  
+  
+  
+  #startGame {
+    font-size: 20px;
+  }
+  
+  #currentWord {
+    height: 150px;
+    border: 1px solid #fff;
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    letter-spacing: 10px;
+    padding-top: 50px;
+  }
+  
+  #remainingGuess {
+    height: 100px;
+    border: 1px solid #fff;
+    width: 200px !important;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto !important;
+    font-family: "Ubuntu";
+  }
+  
+  #totalWins,
+  #totalLoss {
+    height: 60px;
+    border: 1px solid #fff;
+    width: 150px !important;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto !important;
+    font-family: "Ubuntu";
+  }
+  
+  #wrongLetters {
+    height: 80px;
+    border: 1px solid #fff;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    font-family: "Ubuntu";
+  }
